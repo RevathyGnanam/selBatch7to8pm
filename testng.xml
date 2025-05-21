@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite">
-
 <test thread-count="5" name="Test">
   <parameter name ="browser" value="chrome"/>
     <classes>
-    
   <class name="testcases.TC001_RegistrationTest"/>
     <class name="testcases.TC002_LoginTest"/>
       <class name="testcases.TC003_LoginTestDataDrivenConcepts"/>
